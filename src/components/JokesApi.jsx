@@ -1,8 +1,13 @@
 import axios from 'axios'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+
 const jokesApi = () => {
+  useEffect(() => {
+    fetchJokes()
+  }, [])
   const endPoint = "https://v2.jokeapi.dev/joke/Programming,Miscellaneous,Dark,Pun,Christmas?type=single"
   const [response, setresponse] = useState([])
+  
   const fetchJokes = () => {
     axios.get(endPoint)
       .then((result) => {
