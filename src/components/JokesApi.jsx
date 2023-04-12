@@ -24,7 +24,8 @@ const jokesApi = () => {
   return (
     <>
       <section className='col-lg-5 m-auto'>
-        <div className='bg-prima rounded'>
+          <h2 className='text-center fw-bold' style={{color: "red"}}>Jokes</h2>
+        <div className='bg-prima rounded ps-2'>
           <h3 className='fs-2 text-center'>{response.category}</h3>
           <p className='fs-4'>{response.joke}</p>
        <div className="text-center">
