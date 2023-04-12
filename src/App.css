@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+	background: url("https://img.freepik.com/free-photo/world-smile-day-emojis_23-2149024487.jpg?w=826&t=st=1681226672~exp=1681227272~hmac=7211dc609de0561500c2ea66b20549bb4e34c8e78d34903fc2187649b52cda65");
+    background-repeat: no-repeat;
+	background-size: cover;
+	height: 83vh;
+	font-family: 'Abril Fatface', cursive;
+}
+.bg-prima {
+	min-height: 40vh;
+	backdrop-filter: blur(50px);
+	opacity: 1;
+	transition: all 0.5s ease-in;
+	box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+	background: #feda31;
+
+}
+.col-lg-5 {
+	margin-top: 100px !important;
+}
